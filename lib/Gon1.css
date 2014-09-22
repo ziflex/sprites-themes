@@ -1,0 +1,217 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
+.theme-gon1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.8vw;
+  color: #ffffff;
+  background-color: #2f2f2f;
+}
+.theme-gon1 .grid,
+.theme-gon1 .grid div {
+  border-color: #66ccff !important;
+}
+.theme-gon1 .high-contrast {
+  color: #fff;
+}
+.theme-gon1 .accent-1 {
+  color: #59c6f2;
+}
+.theme-gon1 .accent-1.accent-background {
+  background-color: #59c6f2;
+}
+.theme-gon1 .accent-1.accent-border {
+  border-color: #59c6f2;
+}
+.theme-gon1 .accent-2 {
+  color: #f5b15d;
+}
+.theme-gon1 .accent-2.accent-background {
+  background-color: #f5b15d;
+}
+.theme-gon1 .accent-2.accent-border {
+  border-color: #f5b15d;
+}
+.theme-gon1 .accent-3 {
+  color: #24aaad;
+}
+.theme-gon1 .accent-3.accent-background {
+  background-color: #24aaad;
+}
+.theme-gon1 .accent-3.accent-border {
+  border-color: #24aaad;
+}
+.theme-gon1 .accent-4 {
+  color: #e3516b;
+}
+.theme-gon1 .accent-4.accent-background {
+  background-color: #e3516b;
+}
+.theme-gon1 .accent-4.accent-border {
+  border-color: #e3516b;
+}
+.theme-gon1 .type-text {
+  color: #ffffff;
+}
+.theme-gon1 .text-type-quote {
+  color: #ffffff;
+}
+.theme-gon1 .text-type-quote .quote-signature {
+  color: #59c6f2;
+  margin-top: .25vw;
+}
+.theme-gon1 .text-type-quote .quote-signature:before {
+  content: "#";
+  display: inline;
+}
+.theme-gon1 .type-title {
+  color: #a9adb0;
+}
+.theme-gon1 .type-fact .fact-secondary .title {
+  border-bottom: 0.2vw solid;
+  color: #ffffff;
+  background: none;
+  margin-bottom: 1vw;
+  font-weight: lighter;
+  padding: 0.1vw 0.4vw;
+}
+.theme-gon1 .type-fact .fact-secondary .title.accent-1 {
+  border-bottom-color: #59c6f2;
+}
+.theme-gon1 .type-fact .fact-secondary .title.accent-2 {
+  border-bottom-color: #f5b15d;
+}
+.theme-gon1 .type-fact .fact-secondary .title.accent-3 {
+  border-bottom-color: #24aaad;
+}
+.theme-gon1 .type-fact .fact-secondary .title.accent-4 {
+  border-bottom-color: #e3516b;
+}
+.theme-gon1 .type-chart.chart-type-doughnut .element-inner {
+  border-radius: 0.5vw;
+  background-color: #3e3f41 !important;
+}
+.theme-gon1 .type-chart.chart-type-doughnut .element-inner svg path[data-class*="item-"] {
+  stroke-width: 0;
+}
+.theme-gon1 .type-table table.table {
+  width: 100%;
+}
+.theme-gon1 .type-table table.table > thead > tr > th,
+.theme-gon1 .type-table table.table > thead > tr > td,
+.theme-gon1 .type-table table.table > tbody > tr > th,
+.theme-gon1 .type-table table.table > tbody > tr > td,
+.theme-gon1 .type-table table.table > tfoot > tr > th,
+.theme-gon1 .type-table table.table > tfoot > tr > td {
+  padding: 1.5vw;
+  line-height: 1.42857;
+  vertical-align: top;
+  border-top: 0.1vw solid #a9adb0;
+}
+.theme-gon1 .type-table table.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 0.2vw solid #a9adb0;
+}
+.theme-gon1 .type-table table.table > caption + thead > tr:first-child > th,
+.theme-gon1 .type-table table.table > caption + thead > tr:first-child > td,
+.theme-gon1 .type-table table.table > colgroup + thead > tr:first-child > th,
+.theme-gon1 .type-table table.table > colgroup + thead > tr:first-child > td,
+.theme-gon1 .type-table table.table > thead:first-child > tr:first-child > th,
+.theme-gon1 .type-table table.table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+.theme-gon1 .type-table table.table > tbody + tbody {
+  border-top: 0.2vw solid #ddd;
+}
+.theme-gon1 .type-line .line {
+  background-color: #a9adb0;
+}
+.theme-gon1 .type-progress .progress-bar .progress-bar-background {
+  height: 2vw !important;
+  background-color: #ffffff;
+  border-radius: 0.5vw;
+}
+.theme-gon1 .type-progress .progress-bar .progress-bar-background .progress-bar-fill {
+  border-radius: 0.5vw 0 0 0.5vw;
+}
+.theme-gon1 .type-progress .progress-beneath-bar {
+  color: #ffffff;
+  margin-top: 1vw;
+}
+.theme-gon1 .type-progress .progress-beneath-bar .progress-percentage {
+  float: right;
+}
+.theme-gon1 .type-callout.tail-extrasmall .callout-text {
+  height: 6vw;
+  width: 6vw;
+}
+.theme-gon1 .type-callout.tail-extrasmall .callout-text .text {
+  font-size: 1.5vw;
+}
+.theme-gon1 .type-callout.tail-small .callout-text {
+  height: 8vw;
+  width: 8vw;
+}
+.theme-gon1 .type-callout.tail-small .callout-text .text {
+  font-size: 2vw;
+}
+.theme-gon1 .type-callout.tail-large .callout-text {
+  height: 12vw;
+  width: 12vw;
+}
+.theme-gon1 .type-callout.tail-large .callout-text .text {
+  font-size: 3.2vw;
+}
+.theme-gon1 .type-callout.tail-extralarge .callout-text {
+  height: 14vw;
+  width: 14vw;
+}
+.theme-gon1 .type-callout.tail-extralarge .callout-text .text {
+  font-size: 3.5vw;
+}
+.theme-gon1 .type-callout .tail.tail-horizontal,
+.theme-gon1 .type-callout .tail.tail-vertical {
+  background: #ffffff;
+  height: 0.1vw;
+}
+.theme-gon1 .type-callout .callout-text {
+  height: 10vw;
+  width: 10vw;
+  background-color: #59c6f2;
+  border-radius: 50vw;
+}
+.theme-gon1 .type-callout .callout-text .text {
+  font-size: 2.5vw;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+.theme-gon1 .type-timeline.orientation-horizontal .bar {
+  height: 2vw !important;
+  border-radius: 0.5vw !important;
+}
+.theme-gon1 .type-timeline.orientation-horizontal .label {
+  margin-top: 1vw;
+}
+.theme-gon1 .type-timeline.orientation-horizontal .tail {
+  top: 8vw;
+  bottom: 5vw;
+}
+.theme-gon1 .type-timeline.orientation-horizontal .description {
+  top: 3vw;
+}
+.theme-gon1 .type-timeline.orientation-vertical .bar {
+  width: 2vw !important;
+  border-radius: 0.5vw !important;
+}
+.theme-gon1 .type-timeline.orientation-vertical .label {
+  margin-right: 1vw !important;
+}
+.theme-gon1 .type-timeline.orientation-vertical .tail {
+  width: 65% !important;
+}
+.theme-gon1 .type-timeline.orientation-vertical .description {
+  top: -1.5vw;
+}
